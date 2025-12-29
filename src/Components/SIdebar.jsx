@@ -39,16 +39,17 @@ export default function Sidebar() {
         <h2 className="font-bold text-lg text-[#343C6A]">Bank Dash.</h2>
       </span>
 
-      <div className="mt-8 flex flex-col gap-3">
+      <div className="mt-8 flex flex-col gap-2">
         {navItems.map((item) => (
           <Link
             className={`${path === item?.href && "border"}`}
             to={item?.href}
           >
             <div
-              className={`flex items-center px-5 gap-2 py-4   hover:bg-[#F0F4FF] ${
-                item?.link === path &&
-                "border-l-4 border-[#2D60FF] text-[#2D60FF] font-medium "
+              className={`flex items-center px-5 gap-2 py-3   hover:bg-[#F0F4FF] ${
+                item?.link === path
+                  ? "border-l-4 border-[#2D60FF] text-[#2D60FF] font-bold"
+                  : "text-gray-400"
               }`}
             >
               <span>{item.icon}</span>
