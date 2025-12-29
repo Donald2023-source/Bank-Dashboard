@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <div className="flex h-screen w-full">
       <aside
-        className={`w-60 transform transition-transform duration-300 ease-in-out fixed top-0 left-0 h-full z-40 bg-white sm:relative sm:translate-x-0 sm:block ${
+        className={`w-72 transform transition-transform duration-300 ease-in-out fixed top-0 left-0 h-full z-40 bg-white sm:relative sm:translate-x-0 sm:block ${
           nav ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -35,7 +35,7 @@ export default function Layout({ children }) {
           <Header nav={nav} setNav={setNav} />
         </header>
 
-        <main className="flex-1 overflow-y-auto bg-[#718EBF]/20 p-4">
+        <main className="flex-1 overflow-y-auto bg-[#8BA3CB]/20 p-4">
           {children}
         </main>
       </div>
