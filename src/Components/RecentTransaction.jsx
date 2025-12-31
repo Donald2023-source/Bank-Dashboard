@@ -32,7 +32,7 @@ export default function RecentTransaction() {
         Recent Transactions
       </h4>
 
-      <div className="flex flex-col bg-white p-3 rounded-xl gap-8 md:gap-3">
+      <div className="flex flex-col bg-white text-sm md:text-base md:p-3 rounded-xl gap-8 md:gap-3">
         {recentTransactions.map((item, idx) => (
           <div className="flex items-center justify-between" key={idx}>
             <div className="flex items-center gap-3">
@@ -44,7 +44,9 @@ export default function RecentTransaction() {
               />
               <span>
                 <p className="font-semibold">{item?.name}</p>
-                <p className="text-[#718EBF] py-1">{item?.date}</p>
+                <p className="text-[#718EBF] text-sm md:text-base py-1">
+                  {item?.date}
+                </p>
               </span>
             </div>
             <p

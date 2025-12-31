@@ -35,7 +35,7 @@ export default function Layout({ children }) {
           <Header nav={nav} setNav={setNav} />
         </header>
 
-        <main className="flex-1 overflow-y-auto bg-[#8BA3CB]/20 py-4 px-6">
+        <main className="flex-1 overflow-y-auto bg-white md:bg-[#8BA3CB]/20 py-4 px-6">
           {children}
         </main>
       </div>

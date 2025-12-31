@@ -13,10 +13,10 @@ export default function Dashboard() {
               <Link className="font-semibold text-[#343C6A]">See All</Link>
             </span>
             <div className="flex w-full justify-between gap-8 items-center overflow-x-auto">
-              <div className=" bg-linear-to-r from-[#4C49ED] to-[#0A06F4] w-[85%] text-white rounded-2xl md:w-[47%] shrink-0">
+              <div className=" bg-linear-to-r from-[#4C49ED] to-[#0A06F4] w-full text-white rounded-2xl md:w-[47%] shrink-0">
                 <DashboardCard chipColor={"white"} />
               </div>
-              <div className="w-[85%] rounded-2xl bg-white shadow md:w-[47%] shrink-0">
+              <div className="w-full rounded-2xl border-2 border-gray-300 bg-white shadow md:w-[47%] shrink-0">
                 <DashboardCard chipColor={"black"} />
               </div>
             </div>
