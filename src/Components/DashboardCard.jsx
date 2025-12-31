@@ -3,7 +3,7 @@ import chipWhite from "../assets/Chip White.png";
 import Elipse from "../assets/Elipse.png";
 export default function DashboardCard({ chipColor }) {
   return (
-    <div className="p-5  flex flex-col gap-3">
+    <div className="py-8 px-5  flex flex-col gap-3">
       <div className="flex items-center justify-between">
         <span>
           <p>Balance</p>

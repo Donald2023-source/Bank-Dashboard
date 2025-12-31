@@ -31,11 +31,11 @@ export default function Layout({ children }) {
       )}
 
       <div className="flex flex-col  flex-1">
-        <header className="p-4">
+        <header className="py-4 px-6">
           <Header nav={nav} setNav={setNav} />
         </header>
 
-        <main className="flex-1 overflow-y-auto bg-[#8BA3CB]/20 p-4">
+        <main className="flex-1 overflow-y-auto bg-[#8BA3CB]/20 py-4 px-6">
           {children}
         </main>
       </div>
