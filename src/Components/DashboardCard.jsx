@@ -25,7 +25,6 @@ export default function DashboardCard({ chipColor }) {
           <p>12/22</p>
         </span>
       </div>
-
       <div className="flex items-center border-t border-gray-400 py-2 justify-between">
         <p className="font-semibold">3829 **** **** 1208</p>
         <img src={Elipse} alt="Elipse" />
