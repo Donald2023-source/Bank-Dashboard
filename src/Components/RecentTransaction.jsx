@@ -37,14 +37,14 @@ export default function RecentTransaction() {
           <div className="flex items-center justify-between" key={idx}>
             <div className="flex items-center gap-3">
               <img
-                className="p-5 h-15 rounded-full"
+                className="sm:p-5 lg:h-15 rounded-full"
                 style={{ backgroundColor: item?.bg }}
                 src={item?.icon}
                 alt="icon"
               />
               <span>
                 <p className="font-semibold">{item?.name}</p>
-                <p className="text-[#718EBF] text-sm md:text-base py-1">
+                <p className="text-[#718EBF]  text-sm md:text-base py-1">
                   {item?.date}
                 </p>
               </span>

@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <div className="flex h-screen w-full">
       <aside
-        className={`w-[26%] md:w-[20%] transform transition-transform duration-300 ease-in-out fixed top-0 left-0 h-full z-40 bg-white sm:relative sm:translate-x-0  sm:hidden lg:block ${
+        className={`w-fit md:w-[20%] transform transition-transform duration-300 ease-in-out fixed top-0 left-0 h-full z-40 bg-white sm:relative sm:translate-x-0  sm:hidden lg:block md:block ${
           nav ? "translate-x-0" : "-translate-x-full"
         }`}
       >

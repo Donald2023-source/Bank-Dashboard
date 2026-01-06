@@ -21,7 +21,7 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-          <div className="flex-1 w-full">
+          <div className="flex-1 px-3 w-full">
             <RecentTransaction />
           </div>
         </section>

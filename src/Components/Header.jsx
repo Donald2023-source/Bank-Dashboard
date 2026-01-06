@@ -6,7 +6,7 @@ export default function Header({ setNav, nav }) {
       <span className="flex items-center gap-4">
         <Menu
           onClick={() => setNav(!nav)}
-          className="md:hidden block hover:scale-95 transition-all cursor-pointer text-[#718EBF]"
+          className="lg:hidden block hover:scale-95 transition-all cursor-pointer text-[#718EBF]"
         />
         <h2 className="font-bold text-lg sm:block hidden text-[#343C6A]">
           Overview
